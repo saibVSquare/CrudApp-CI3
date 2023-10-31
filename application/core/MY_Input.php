@@ -43,7 +43,7 @@ class MY_Input extends CI_Input {
 	 * @param	bool	true makes the cookie secure
 	 * @return	void
 	 */
-	function set_cookie($name = '', $value = '', $expire = '', $domain = '', $path = '/', $prefix = '', $secure = FALSE)
+	function set_cookie($name, $value = '', $expire = '', $domain = '', $path = '/', $prefix = '', $secure = NULL, $httponly = NULL, $samesite = NULL)
 	{
 		if (is_array($name))
 		{

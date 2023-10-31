@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @link        http://community-auth.com
  */
 
-class Key_creator extends CI_Controller{
+class KeyCreator extends CI_Controller{
 	
 	/**
 	 * The key creator is only available if there is no current encryption key.
